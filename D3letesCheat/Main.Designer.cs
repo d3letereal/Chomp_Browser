@@ -1,6 +1,6 @@
 ﻿namespace D3letesCheat
 {
-    partial class Form1
+    partial class Main
     {
         /// <summary>
         /// Required designer variable.
@@ -28,11 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.webView21 = new Microsoft.Web.WebView2.WinForms.WebView2();
-            this.guna2ImageButton1 = new Guna.UI2.WinForms.Guna2ImageButton();
             this.guna2ImageButton2 = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.guna2ImageButton1 = new Guna.UI2.WinForms.Guna2ImageButton();
             ((System.ComponentModel.ISupportInitialize)(this.webView21)).BeginInit();
             this.SuspendLayout();
             // 
@@ -70,37 +70,37 @@
             this.webView21.TabIndex = 1;
             this.webView21.ZoomFactor = 1D;
             // 
-            // guna2ImageButton1
-            // 
-            this.guna2ImageButton1.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton1.HoverState.ImageSize = new System.Drawing.Size(21, 21);
-            this.guna2ImageButton1.Image = global::D3letesCheat.Properties.Resources.Youtube;
-            this.guna2ImageButton1.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton1.ImageRotate = 0F;
-            this.guna2ImageButton1.ImageSize = new System.Drawing.Size(32, 32);
-            this.guna2ImageButton1.Location = new System.Drawing.Point(1561, 1);
-            this.guna2ImageButton1.Name = "guna2ImageButton1";
-            this.guna2ImageButton1.PressedState.ImageSize = new System.Drawing.Size(21, 21);
-            this.guna2ImageButton1.Size = new System.Drawing.Size(45, 35);
-            this.guna2ImageButton1.TabIndex = 2;
-            this.guna2ImageButton1.Click += new System.EventHandler(this.guna2ImageButton1_Click_1);
-            // 
             // guna2ImageButton2
             // 
             this.guna2ImageButton2.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton2.HoverState.ImageSize = new System.Drawing.Size(21, 21);
-            this.guna2ImageButton2.Image = global::D3letesCheat.Properties.Resources.Discord;
+            this.guna2ImageButton2.HoverState.ImageSize = new System.Drawing.Size(40, 40);
+            this.guna2ImageButton2.Image = global::Chomp.Properties.Resources.refresh;
             this.guna2ImageButton2.ImageOffset = new System.Drawing.Point(0, 0);
             this.guna2ImageButton2.ImageRotate = 0F;
-            this.guna2ImageButton2.ImageSize = new System.Drawing.Size(32, 32);
-            this.guna2ImageButton2.Location = new System.Drawing.Point(1510, 1);
+            this.guna2ImageButton2.ImageSize = new System.Drawing.Size(40, 40);
+            this.guna2ImageButton2.Location = new System.Drawing.Point(1531, 1);
             this.guna2ImageButton2.Name = "guna2ImageButton2";
-            this.guna2ImageButton2.PressedState.ImageSize = new System.Drawing.Size(21, 21);
-            this.guna2ImageButton2.Size = new System.Drawing.Size(45, 35);
+            this.guna2ImageButton2.PressedState.ImageSize = new System.Drawing.Size(40, 40);
+            this.guna2ImageButton2.Size = new System.Drawing.Size(41, 35);
             this.guna2ImageButton2.TabIndex = 3;
             this.guna2ImageButton2.Click += new System.EventHandler(this.guna2ImageButton2_Click);
             // 
-            // Form1
+            // guna2ImageButton1
+            // 
+            this.guna2ImageButton1.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton1.HoverState.ImageSize = new System.Drawing.Size(40, 40);
+            this.guna2ImageButton1.Image = global::Chomp.Properties.Resources.back;
+            this.guna2ImageButton1.ImageOffset = new System.Drawing.Point(0, 0);
+            this.guna2ImageButton1.ImageRotate = 0F;
+            this.guna2ImageButton1.ImageSize = new System.Drawing.Size(40, 40);
+            this.guna2ImageButton1.Location = new System.Drawing.Point(1482, 1);
+            this.guna2ImageButton1.Name = "guna2ImageButton1";
+            this.guna2ImageButton1.PressedState.ImageSize = new System.Drawing.Size(40, 40);
+            this.guna2ImageButton1.Size = new System.Drawing.Size(43, 35);
+            this.guna2ImageButton1.TabIndex = 2;
+            this.guna2ImageButton1.Click += new System.EventHandler(this.guna2ImageButton1_Click);
+            // 
+            // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -114,7 +114,7 @@
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Form1";
+            this.Name = "Main";
             this.Text = "Form1";
             
             ((System.ComponentModel.ISupportInitialize)(this.webView21)).EndInit();
