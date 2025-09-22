@@ -3,7 +3,7 @@
 
 ## ✨ Features
 - 🚀 Lightweight, doesn’t hog CPU or GPU  
-- 🖥️ Modern tabbed UI (powered by [EasyTabs](https://github.com/dwmkerr/easytabs))  
+- 🖥️ Modern UI (powered by GunaUI and [EasyTabs](https://github.com/dwmkerr/easytabs))  
 - 🌐 Uses DuckDuckGo via [WebView2](https://learn.microsoft.com/en-us/microsoft-edge/webview2/)  
 - 🌓 Dark & Light mode toggle (planned)  
 - ⚡ Low-power mode toggle (planned)  
