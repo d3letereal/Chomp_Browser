@@ -37,6 +37,7 @@ ChompBrowser/
 └── Main.Designer.cs
 
 HTML - Handles all the custom HTML i make
+
 AppContainer - Handles Easy Tabs
 
 ## 🛠️ Getting Started
