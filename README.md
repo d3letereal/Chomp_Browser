@@ -38,7 +38,7 @@ ChompBrowser/
 ## 🛠️ Getting Started
 
 ### Requirements
-- .NET 6.0 (or .NET Framework 4.8 if you prefer classic)  
+-  .NET Framework 4.8 since prefer classic)  
 - [WebView2 Runtime](https://developer.microsoft.com/en-us/microsoft-edge/webview2/)  
 - EasyTabs NuGet package  
 
