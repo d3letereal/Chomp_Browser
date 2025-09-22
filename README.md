@@ -22,6 +22,7 @@ Chomp is made using **C# WinForms** and .NET. The project uses:
 - **EasyTabs** → Manages tabs in a WinForms app.  
 - **WebView2** → Provides a DuckDuckGo-based rendering engine.  
 - **Custom WinForms UI** → Lightweight design with minimal resource usage.  
+- **Guna UI** → for the sleek ui
 
 ### Project Structure
 ChompBrowser/
