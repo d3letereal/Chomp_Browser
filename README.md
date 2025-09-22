@@ -28,12 +28,16 @@ ChompBrowser/
 
 ├── Program.cs
 
+├── HTML.cs 
+
 ├── AppContainer.cs
 
 ├── Main.cs 
 
 └── Main.Designer.cs
 
+HTML - Handles all the custom HTML i make
+AppContainer - Handles Easy Tabs
 
 ## 🛠️ Getting Started
 
