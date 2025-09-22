@@ -30,9 +30,9 @@ ChompBrowser/
 
 ├── AppContainer.cs
 
-├── BrowserForm.cs 
+├── Main.cs 
 
-└── BrowserForm.Designer.cs
+└── Main.Designer.cs
 
 
 ## 🛠️ Getting Started
