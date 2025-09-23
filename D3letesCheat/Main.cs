@@ -114,6 +114,11 @@ namespace D3letesCheat
             currentFriendlyUrl = "Chomp://home";
             webView?.CoreWebView2?.Navigate(HTML.HomePage());
         }
+        private void NavigateSecret()
+        {
+            currentFriendlyUrl = "Chomp://shh";
+            webView?.CoreWebView2?.Navigate(HTML.Secret());
+        }
 
         private void NavigateBytePage()
         {
@@ -167,8 +172,13 @@ namespace D3letesCheat
 
                 if (string.Equals(input, "Chomp://home", StringComparison.OrdinalIgnoreCase))
                     NavigateHome();
+
                 else if (string.Equals(input, "Chomp://byte", StringComparison.OrdinalIgnoreCase))
                     NavigateBytePage();
+
+                else if (string.Equals(input, "Chomp://shh", StringComparison.OrdinalIgnoreCase))
+                    NavigateSecret();
+
                 else
                 {
                     if (!IsInternetAvailable())
