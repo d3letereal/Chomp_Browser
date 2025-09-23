@@ -1,6 +1,6 @@
 # 🦈 Chomp Browser
-*A sleek, low-resource custom browser built in C# WinForms with EasyTabs + WebView2. ONLY SUPPOTS WINDOWS NOT MAC OR LINUX DONT INSTALL FOR MAC OR LINUX*
-
+*A sleek, low-resource custom browser built in C# WinForms with EasyTabs + WebView2.*
+* ONLY SUPPOTS WINDOWS NOT MAC OR LINUX DONT INSTALL FOR MAC OR LINUX*
 ## ✨ Features
 - 🚀 Lightweight, doesn’t hog CPU or GPU  
 - 🖥️ Modern UI (powered by GunaUI and [EasyTabs](https://github.com/dwmkerr/easytabs))  
