@@ -3,7 +3,7 @@
 
 ## ✨ Features
 - 🚀 Lightweight, doesn’t hog CPU or GPU  
-- 🖥️ Modern tabbed UI (powered by [EasyTabs](https://github.com/dwmkerr/easytabs))  
+- 🖥️ Modern UI (powered by GunaUI and [EasyTabs](https://github.com/dwmkerr/easytabs))  
 - 🌐 Uses DuckDuckGo via [WebView2](https://learn.microsoft.com/en-us/microsoft-edge/webview2/)  
 - 🌓 Dark & Light mode toggle (planned)  
 - ⚡ Low-power mode toggle (planned)  
@@ -22,11 +22,14 @@ Chomp is made using **C# WinForms** and .NET. The project uses:
 - **EasyTabs** → Manages tabs in a WinForms app.  
 - **WebView2** → Provides a DuckDuckGo-based rendering engine.  
 - **Custom WinForms UI** → Lightweight design with minimal resource usage.  
+- **Guna UI** → for the sleek ui
 
 ### Project Structure
 ChompBrowser/
 
 ├── Program.cs
+
+├── HTML.cs 
 
 ├── AppContainer.cs
 
@@ -34,6 +37,9 @@ ChompBrowser/
 
 └── Main.Designer.cs
 
+HTML - Handles all the custom HTML i make
+
+AppContainer - Handles Easy Tabs
 
 ## 🛠️ Getting Started
 
