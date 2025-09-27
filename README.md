@@ -53,7 +53,7 @@ ChompBrowser/
 
 - `HTML.cs` handles custom HTML logic  
 - `AppContainer.cs` manages tabs (EasyTabs integration)  
-- `Main…` files manage the UI and app lifecycle  
+- `Main.cs` files manage the UI and app lifecycle  
 
 ---
 
