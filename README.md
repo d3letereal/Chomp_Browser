@@ -6,10 +6,6 @@
 
 ---
 
-![Chomp Browser Screenshot](https://github.com/d3letereal/image/blob/main/Screenshot%202025-09-27%20124214.png?raw=true)
-
----
-
 ## 🚀 Features
 
 - Lightweight, doesn’t hog CPU or GPU  
@@ -25,6 +21,11 @@
 
 Inspired by **[CsharpProgramming on YouTube](https://www.youtube.com/@CsharpProgramming)**, particularly this video:  
 ➡️ [I made a Web Browser](https://www.youtube.com/watch?v=YMX7uD2tqE0)
+
+---
+
+## Screenshot
+![Chomp Browser Screenshot](https://github.com/d3letereal/image/blob/main/Screenshot%202025-09-27%20124214.png?raw=true)
 
 ---
 
