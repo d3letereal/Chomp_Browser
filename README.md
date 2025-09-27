@@ -39,4 +39,36 @@ Chomp is built using **C# WinForms** & .NET. It uses:
 - Custom code to manage tabs & HTML parsing
 
 ### 📁 Project Structure
+ChompBrowser/
+
+├── Program.cs
+
+├── HTML.cs
+
+├── AppContainer.cs
+
+├── Main.cs
+
+└── Main.Designer.cs
+
+- `HTML.cs` handles custom HTML logic  
+- `AppContainer.cs` manages tabs (EasyTabs integration)  
+- `Main…` files manage the UI and app lifecycle  
+
+---
+
+## 🛠️ Getting Started
+
+### 🔧 Requirements
+
+- .NET Framework 4.8  
+- WebView2 Runtime  
+- EasyTabs NuGet package  
+
+### 🌀 Installation
+
+```bash
+git clone https://github.com/d3letereal/Chomp_Browser.git
+cd Chomp_Browser
+# Open solution in Visual Studio, build & run
 
