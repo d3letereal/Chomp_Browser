@@ -1,7 +1,7 @@
 # 🦈 Chomp Browser
 
 *A sleek, low-resource custom browser built in C# WinForms with EasyTabs + WebView2.*
-
+> ⚠️ **not supported any more**.
 > ⚠️ **Currently supports Windows only.** macOS & Linux are **not supported**.
 
 ---
